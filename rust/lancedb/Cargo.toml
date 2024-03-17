@@ -46,6 +46,9 @@ tempfile = "3.5.0"
 rand = { version = "0.8.3", features = ["small_rng"] }
 uuid = { version = "1.7.0", features = ["v4"] }
 walkdir = "2"
+polars-core = "0.38.2"
+polars-lazy = "0.38.2"
+polars = "0.38.2"
 
 [features]
 default = ["remote"]
